@@ -1,0 +1,189 @@
+[
+  {
+    "id": "start",
+    "number": "00",
+    "title": "Start with Python & Colab",
+    "short": "A practical first session: load data, draw charts, and read a notebook.",
+    "topic": "Python foundations",
+    "time": "45–60 min",
+    "icon": "terminal",
+    "goals": [
+      "Run Python notebooks confidently in Google Colab.",
+      "Load datasets and inspect a time index.",
+      "Interpret a basic forecasting graphic."
+    ],
+    "files": [
+      [
+        "Tutorial1_Python_StudentReference.ipynb",
+        "Guided tutorial · main notebook",
+        "Requires Tutorial 1 data ZIP"
+      ]
+    ],
+    "data": [
+      "Tutorial1_Data.zip"
+    ]
+  },
+  {
+    "id": "graphics",
+    "number": "01",
+    "title": "Time-Series Graphics",
+    "short": "Recognize trend, seasonality, outliers, and changing variability.",
+    "topic": "Exploration",
+    "time": "60–90 min",
+    "icon": "chart",
+    "goals": [
+      "Use plots as evidence, not decoration.",
+      "Describe time-series patterns in business language.",
+      "Compare a live lesson with a self-study explanation."
+    ],
+    "files": [
+      [
+        "Ch02_Student_Live.ipynb",
+        "Live class notebook",
+        "Downloads source datasets when run"
+      ],
+      [
+        "Ch02_Detailed_SelfStudy.ipynb",
+        "Detailed self-study companion",
+        "Downloads source datasets when run"
+      ],
+      [
+        "Time_Series_Graphics_Student_Colab.ipynb",
+        "Extra graphics practice",
+        "Requires internet for public data"
+      ]
+    ],
+    "data": []
+  },
+  {
+    "id": "decomposition",
+    "number": "02",
+    "title": "Transformations & Decomposition",
+    "short": "Adjust series, use moving averages, and separate time-series components.",
+    "topic": "Patterns & components",
+    "time": "90–120 min",
+    "icon": "layers",
+    "goals": [
+      "Choose when to transform or smooth a series.",
+      "Interpret trend and seasonal decomposition.",
+      "Explain how preprocessing changes a managerial conclusion."
+    ],
+    "files": [
+      [
+        "Lecture2_Simplified_Student_Colab.ipynb",
+        "Live lecture · main notebook",
+        "Upload Lecture 2 data ZIP"
+      ],
+      [
+        "Lecture2_Colab_BookData_Detailed_StudentGuide.ipynb",
+        "Detailed reference notebook",
+        "Upload Lecture 2 data ZIP"
+      ]
+    ],
+    "data": [
+      "Lecture2_Offline_OriginalBook_CSVs.zip"
+    ]
+  },
+  {
+    "id": "features",
+    "number": "03",
+    "title": "Features & Forecast Accuracy",
+    "short": "Create predictors, establish evaluation periods, and compare models.",
+    "topic": "Model assessment",
+    "time": "60–90 min",
+    "icon": "check",
+    "goals": [
+      "Prepare time-based predictors and transformations.",
+      "Avoid using future information in evaluation.",
+      "Explain why a model is preferable using accuracy measures."
+    ],
+    "files": [
+      [
+        "Week3_Python_Student_Colab.ipynb",
+        "Week 3 · main notebook",
+        "Upload Week 3 data ZIP"
+      ]
+    ],
+    "data": [
+      "Week3_Data.zip"
+    ]
+  },
+  {
+    "id": "regression",
+    "number": "04",
+    "title": "Time-Series Regression",
+    "short": "Connect trend, seasonality, advertising, and pricing to business demand.",
+    "topic": "Predictor-based forecasts",
+    "time": "60–90 min",
+    "icon": "regression",
+    "goals": [
+      "Interpret trend, dummy variables, and regression coefficients.",
+      "Estimate accuracy using a chronological holdout.",
+      "Use forecast scenarios to support a managerial decision."
+    ],
+    "files": [
+      [
+        "Regression_Original_Practice.ipynb",
+        "New self-contained practice notebook",
+        "Synthetic demonstration data · no upload needed"
+      ]
+    ],
+    "data": []
+  },
+  {
+    "id": "smoothing",
+    "number": "05",
+    "title": "Exponential Smoothing",
+    "short": "Learn SES, Holt, damped trend, Holt–Winters, and ETS thinking.",
+    "topic": "Smoothing models",
+    "time": "90–120 min",
+    "icon": "waves",
+    "goals": [
+      "Match model structure to the observed pattern.",
+      "Compare level, trend, and seasonal methods.",
+      "Interpret forecast accuracy and uncertainty."
+    ],
+    "files": [
+      [
+        "Exponential_Smoothing_Example_Student.ipynb",
+        "Main student example",
+        "Self-contained"
+      ],
+      [
+        "Week7_Exponential_Smoothing_Student.ipynb",
+        "Additional guided tutorial",
+        "Guided practice with Python"
+      ]
+    ],
+    "data": []
+  },
+  {
+    "id": "arima",
+    "number": "06",
+    "title": "ARIMA & Forecasting Benchmarks",
+    "short": "From naïve forecasts to ARIMA, diagnostics, and model comparisons.",
+    "topic": "Statistical forecasting",
+    "time": "90–120 min",
+    "icon": "activity",
+    "goals": [
+      "Establish sensible benchmark forecasts.",
+      "Explain differencing, AR and MA components.",
+      "Use diagnostics before defending a forecast."
+    ],
+    "files": [
+      [
+        "Lecture4_ARIMA_Student_Colab.ipynb",
+        "Full lecture notebook",
+        "Upload ARIMA data ZIP"
+      ],
+      [
+        "ARIMA_Student_Colab.ipynb",
+        "Focused ARIMA notebook",
+        "Downloads source datasets when run"
+      ]
+    ],
+    "data": [
+      "Lecture4_Data.zip"
+    ]
+  }
+]
