@@ -1,0 +1,21 @@
+name: Import website archive
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/import-website.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and unpack the website
+        run: |
+          printf '%s\n' 'ea3b4ca7828724a24f0a21bfa4746230b3aabc65b633bc09092e0b290c86e3ef  Business_Forecasting_Website.zip' | sha256sum --check
+          unzip -q Business_Forecasting_Website.zip -d "$RUNNER_TEMP"
+          cp -a "$RUNNER_TEMP/Business_Forecasting_Website/." .
+          git rm Business_Forecasting_Website.zip
+          git add -- .nojekyll 404.html README.md assets course_catalog.json data index.html modules notebooks
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Publish Business Forecasting website files'
+          git push origin HEAD:main
